@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> XOOMPAI </title>
+    <link rel="shortcut icon" href="./assets/fav icons/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" crossorigin href="/assets/index-BPJgZWzM.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-[#FFFFFF]"> 
+    <header class="sticky top-0 left-0 z-50">
+        <nav class=" relative h-10 flex items-center sm:h-14 lg:h-24 lg:p-10 ">
+            <div class="flex justify-between w-screen ">
+                <div class=" mx-5 sm:hidden md:hidden lg:hidden "><i class="ri-menu-line"></i></div>
+                <div class="bg-black text-white px-2 py-1 rounded-sm   text-center text-sm mr-2 sm:ml-7 ">
+                    XOOMPAI
+                </div>
+            </div>
+            <ul
+                class=" absolute -ml-[70px] mt-32  z-10 sm:flex sm:justify-center sm:items-center sm:space-x-5 sm:ml-32 sm:mb-32 md:ml-40 lg:ml-72 ">
+                <li><a href="#page1">Home</a></li>
+                <li><a href="#page3">About Us</a></li>
+                <li><a href="#page6">Team</a></li>
+                <li><a href="#page7">Projects</a></li>
+                <li><a href="#page8">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container ">
+            <div id="page1" class=" w-[98.7vw] h-full ">
+                <div class="sm:w-1/2 sm:float-right sm:mt-6 ">
+                    <img class=" h-48 w-full rounded-l-full rounded-r-none rounded-t-none rounded-b-full sm:rounded-[100%_0%_50%_50%_/0%_0%_100%_100%] lg:rounded-[100%_0%_75%_25%_/0%_62%_38%_100%] md:h-[280px] lg:w-[640px] lg:h-[480px] lg:absolute lg:top-0 lg:right-0  "
+                        src="/assets/img1-Dvddkyaf.jpeg" alt="">
+                </div>
+                <h1
+                    class=" font-bold text-lg my-2 mx-6 sm:mx-8 sm:pt-5 lg:p-4 lg:mx-14 lg:my-10 lg:text-4xl lg:w-[400px] lg:font-bold  ">
+                    WE CREATE WORLD BEST INTERIOR DESIGN FOR YOU
+                </h1>
+                <p class="text-sm ml-6 sm:mx-8 lg:text-base lg:w-1/2 lg:ml-[67px] ">
+                    Lorem resum coxe an ank, consectelur do asang elt sentan
+                    cuismod biberdum laoteet, Proin gravide dolor sil amet lacus.
+                    accumsan et viverta tisto commotio.
+                </p>
+                <button
+                    class="border-2 border-black rounded-sm py-1 px-2 ml-6 mt-3 hover:text-white hover:bg-black active:bg-white active:text-black sm:ml-8 sm:mt-6 md:mt-10 lg:ml-16 lg:mt-20">
+                    Get a Quote
+                </button>
+                <button
+                    class=" text-white bg-black py-1 px-2 ml-2 border-2 border-black rounded-sm hover:text-black hover:bg-white active:bg-black active:text-white">
+                    Contact to US
+                </button>
+                <div
+                    class="cards grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 md:gap-x-64 lg:w-fit lg:h-80 lg:items-center ">
+                    <div
+                        class="card1 hover:cursor-pointer w-[94%] h-fit m-auto mt-5 p-5 shadow-md shadow-gray-500 md:mt-32 md:w-[250px] md:h-fit lg:w-[300px] lg:my-0 lg:ml-36 ">
+                        <div class="">
+                            <img class="h-16 w-16 rounded-full float-right shadow-lg shadow-white"
+                                src="data:image/png;base64,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" alt="">
+                        </div>
+                        <h3 class="font-semibold text-lg">
+                            Thoughtful Design
+                        </h3>
+                        <p class="">
+                            Lorem ipsur dolor sit amet, consectetur adipiscing
+                            eiit. Aenean euismod bibendum laoreet. Proin gravida
+                            dolor sit amet locus accumsan et viverra.
+                        </p>
+                    </div>
+                    <div
+                        class="card2 hover:cursor-pointer w-[94%] h-fit m-auto mt-5 p-5 shadow-md shadow-gray-500 md:mt-32 md:w-[250px] md:h-60 lg:w-[300px]  lg:my-0 lg:h-fit">
+                        <div class="">
+                            <img class="h-16 w-16 rounded-full float-right shadow-lg shadow-black"
+                                src="/assets/logo2-CbG5r7tf.png" alt="">
+                        </div>
+                        <h3 class="font-semibold text-lg">
+                            Great Products
+                        </h3>
+                        <p class="">
+                            Lorem ipsum dolor sit amct, consectetur adipisoino
+                            elit. Aenean evismod bibendum lacreet. Proin gravida
+                            dolar sit amet Lacur sccumean et viverta.l
+                        </p>
+                    </div>
+                    <div
+                        class="card3 hover:cursor-pointer w-[94%] h-fit m-auto mt-5 p-5  shadow-md shadow-gray-500 md:mt-32 md:w-[250px] md:h-60 lg:w-[300px] lg:my-0 lg:h-fit lg:-ml-36 ">
+                        <div class="">
+                            <img class="h-16 w-16 rounded-full float-right shadow-lg shadow-black"
+                                src="data:image/png;base64,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" alt="">
+                        </div>
+                        <h3 class="font-semibold text-lg">
+                            Awesome integration
+                        </h3>
+                        <p class="">
+                            Lorem ipsurn dolor sil amet, consectelur adipiscinal
+                            est. henesn euismod bibendum acreet. Proin cravids
+                            dolor sit amet lacus accumsan et viverra
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="page2" class="bg-[#F8F8F8] mt-5 w-screen lg:w-[98.7vw] lg:flex ">
+                <div class="part1 lg:w-2/5 ">
+                    <h3 class="p-5 font-semibold lg:text-2xl lg:px-20">
+                        HOW DO WE WORKnpm run start
+
+                    </h3>
+                    <div class="cards-2 md:flex md:flex-row lg:flex-col lg:pl-10 ">
+                        <div
+                            class="card1 hover:cursor-pointer flex shadow-md shadow-black rounded-sm my-3 mx-2 sm:my-3 sm:mx-2 sm:h-28 md:h-48 md:flex-col lg:w-[440px] lg:h-[170px] lg:flex-row lg:shadow-none lg:rounded-none ">
+                            <div class="">
+                                <img class="mt-4 h-11 w-16 rounded-full mx-3 sm:h-14 sm:w-14 md:h-10 md:w-10 md:m-auto lg:h-20 lg:w-24 lg:my-5 lg:mx-10 "
+                                    src="data:image/png;base64,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" alt="">
+                            </div>
+                            <div class="py-3  px-5 text-left lg:pl-16">
+                                <h5 class=" lg:text-lg font-semibold  ">
+                                    All Necessary Data Collection
+                                </h5>
+                                <p class=" text-sm font-light lg:text-base lg:font-normal">
+                                    Sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Quis ipsum suspendisse.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="card2 hover:cursor-pointer flex shadow-md shadow-black rounded-sm my-3 mx-2  sm:h-28 sm:my-3 sm:mx-2  md:h-48 md:flex-col lg:-my-3 lg:w-[440px] lg:h-[170px] lg:flex-row lg:shadow-none lg:rounded-none">
+                            <div class="">
+                                <img class="mt-4 h-11 w-16 rounded-full mx-3 sm:h-14 sm:w-14 md:h-10 md:w-10 md:m-auto lg:h-20 lg:w-24 lg:my-5 lg:mx-10  "
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAB6CAMAAABHh7fWAAAAclBMVEUAAAD///+AgIC/v79AQEAwMDAQEBAgICDPz89QUFDS0tLv7+9gYGDg4OD4+Pj19fWgoKDn5+cICAhLS0uwsLDIyMiWlpZWVlY1NTUlJSWqqqq3t7dlZWWOjo6IiIgaGhpsbGx4eHja2to6OjpycnJ7e3v3UDffAAAGyklEQVRogcVb54KyOhBFpKhIEbF3d33/V/x0MwNJyAwJwr3nl4XkkGQ6g+e54rbfPbanzSJdJZNJsnouNqftY7e/OU/khsP5uJoQWB3P8Vi8621K0SLS7Xp43v2FXK62+Es4JG/5eNrxCjx/o4GIo2viQvxBch2CPN5mrsQfZNtvZa68tGfNF9X1HOwP8XtlUXzYB+drtcjb113Kb5h3umytjndCisJ7S+/SeW/i+KRO9Xx1CG/40sTx1HPXl8omri57m0GaEua7HsTlUZ5isXS45YU8snA+8YO8dVNHG7Weynd9cBu8kzQqDdzG/pFLd+626ZJK5Y9eOlK+JEm52o+TjvnY2xnG0iyF5ZiyOam8v2a+sWsWfrLaumjTW0J0HBpZ31gY9bJhPn5lCf8mKxru7skaC/b7LfEH92bPuy6tZSPrY4cMaNT0yF+4rQWshzKbEdTCtuUuO+NVqwGjnLC26mfmItycfND4KsR1Z+S0EUac2c+QzJ73g0tKKRWrTcngEe0cZ67M/z/w/4FkW8aS1dgD/utg7O2BDikzGUi0YpsxmD1vRk+PepWMlLfFKOateCfCMH+EpEkARS3RpRztvK1n7QG00ZpRO1C3NCBuuOWqpOGi7+MxN15M2dkYfpyNyex5EDlkcmKADqvDdM9RQwikPj9+3z7tG9jYDo8a8sRGzVFRwbIbBfbtFu2TjDUIG60vu9kdcKhTflxjiGl07Dh6qBS/BzCuMzDpOGrGKSLWcCF65a12KzQCn8W82ypASACCVuZ2mzUIroIrEaHxDjZhtIKbDLQgIq0BS8Y7S7/znOvzLthth3mERYPtv3MDDNUcGqym/Iprnp/PNxjA+unOEqUCbiZ0VB860FZevq23u5MajcgnAATV4h31nOZpg0/WwG1/1AtKDx3WN+Y1WkaHZYJIbPHWarjVL1Npe+Bh1+4o/6+YPS/DtcIp8kFC/Dt1gM97QAgY1qhnnKuOnLT6A9aqgNO+o4AzBjxy06w/pMzCwYxfsIDBCPiUZqAxo9cNIl6hsaA1wiJAMIHeRvDZG1Rruuwr7i0tbNW6EEY3ISeEyGSG1plUa+Hlpi6pQcHvI6jzE00q6awDep4wCIy/R/yOg8tOPQhRyFUJasPvhUgQKwM7Ty3u7H0iIBXUdQR11JQBJ9PWjvHUYLozNGtu1KGi6omuxJbUSY8N142Mzm254SBmZIxioq4mGjQPYClmoNekchmoUTGXYTwHU6caQ54avOYTrRlpcw3UQsQgrPENy+apIfHaoIUmSygG6kQhE7uvSDlPDYZ0iqESWTltUwfqFgvjpGg3Tw3FhSO6MLJOR1E3XG0invqCjGe8B0fqRhtdqSuUzNqPOFLXz4Ji9Ws3NQRIAWoZ6eMMYgZSAvDbGsJTg/18WxLwH5TrMlBX8tQirFRzF5Ya1Drz6rIsFSEZqCGIreJPZjAx8LDUIFyfxBYEjkp8TIa0Fa1phQyWGrT52qyBSvdM1KHesqH5bJYanMbHhoEjoRyI2Wmq3PphcdSY9/xVNEDY7w7UisNOWnEKRw0px+Lvy7Y5d2vqd4wM5KnfdvUcNQwTJSSsZZnVS1CbHFs89/2l0eMx1FjGAXcFB2e+VniHjgKkCqFw5kff4DJW8JUv2YlAfWqf2oONNodcEPZf4CsWTc0+26Ioa4LZTuDh1slOygpaj0TzLfZmyUHZrH8AgSdyldi558sQHwtgIbgp9JQwOVFri5zT3BkR6sFEidQ8gOdJpWhB4bDracW7IlWXIvCc6deNERxKkKlcEX6sljzGpH4ByUX5FR+85CN2osbAkWkcuOyOhz7foDIu+n3a2MswwnNzAaz4r1ryhP/kI1UsDzm9NmzDWYwi5SU2oJmaclAKxnmOjE+QdRkTqPthBmk+UvHAuYncru4/GlzU6rIfpUD1eWSDNSAJoAGdPEk5qqVwpEYgTntQw4Ztf6qdLnuQV7wqH6wN6adu+up4clmX4rKBukTWdatbp9I2DX4Ovbo0mpJ2Z4Of3Nao23l3lHXXnk1bo9zMufny4W7cxDY2zZxKC2vyVQvrvGlhnVo6hlIqRPJPhDnc5PZf+2HNEU0SpheRw10KodlWytZAqUmbimw5hFJ7euZ486H8xProSB7KpWPukZcZatx/cnAogTqyj7C85BkmT98qcjr46ksQPaPrvZZyzB6dL19oIzb9vdBdz/ScXjnpqxwCt+OkhWzWftFmZngRqL9JwNW0HnTYwVUrjDgU3UT6xhRDRfNx4fRi1fcvVMmIlpXhtSkT8mo5eFdmObd5bXA+VoYe/08vSwLwFdHnt6+I/gPYrUowzkv8wAAAAABJRU5ErkJggg==" alt="">
+                            </div>
+                            <div class="py-3 px-5 text-left lg:pl-16">
+                                <h5 class=" lg:text-lg font-semibold  ">
+                                    Analysis Data
+                                </h5>
+                                <p class=" text-sm font-light lg:text-base lg:font-normal">
+                                    Sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Quis ipsum suspendisse.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="card3 hover:cursor-pointer flex shadow-md shadow-black rounded-sm my-3 mx-2  sm:h-28 sm:my-3 sm:mx-2 md:h-48 md:flex-col lg:w-[440px] lg:h-[170px] lg:flex-row lg:shadow-none lg:rounded-none">
+                            <div class="">
+                                <img class="mt-4 h-11 w-16 rounded-full mx-3 sm:h-14 sm:w-14 md:h-10 md:w-10 md:m-auto lg:h-20 lg:w-24 lg:my-5 lg:mx-10  "
+                                    src="data:image/png;base64,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" alt="">
+                            </div>
+                            <div class="py-3  px-5 text-left lg:pl-16">
+                                <h5 class=" lg:text-lg font-semibold  ">
+                                    Report the best Solution
+                                </h5>
+                                <p class=" text-sm font-light lg:text-base lg:font-normal">
+                                    Sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua. Quis ipsum suspendisse.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="part2 lg:w-3/5 lg:h-screen">
+                    <div class=" ">
+                        <img class=" object-center object-cover m-auto h-[200px] w-[300px]  sm:rounded-[0%_100%_0%_100%_/45%_50%_50%_55%] md:rounded-[0%_100%_0%_100%_/45%_50%_50%_55%] md:w-[600px] md:h-[300px] lg:rounded-[23%_28%_38%_40%_/48%_0%_0%_47%] lg:h-[400px] lg:w-[800px] lg:ml-[10px] lg:mt-24"
+                            src="/assets/img2-CVGRVRab.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="page3" class=" w-[98.7vw] ">
+                <h2 class=" uppercase font-semibold text-base p-5 md:p-7 md:text-lg lg:font-bold lg:text-3xl lg:px-20 ">
+                    why we are different
+                </h2>
+                <p
+                    class="text-sm text-center px-5 py-2 font-light sm:font-normal md:text-base md:-mt-5 lg:text-lg lg:px-28 lg:py-2 ">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur dicta iure distinctio
+                    corporis culpa quas laborum eum, facere vitae officiis quisquam blanditiis odio quam nostrum
+                    molestiae ipsam ab, quae ipsum ea ducimus ipsa ut libero? Expedita harum nesciunt aliquid modi
+                    ipsam, laboriosam temporibus perspiciatis earum, impedit tenetur, facilis soluta?
+                </p>
+                <div class="cads-3 md:grid md:grid-cols-2 md:grid-rows-2 md:h-[145vh] lg:py-8 lg:h-[85vh] ">
+                    <div class="par1">
+                        <div class="cover1 lg:h-fit lg:w-fit lg:ml-auto">
+                            <div
+                                class="card1 hover:cursor-pointer flex shadow-md shadow-black rounded-sm my-3 mx-2 sm:my-3 sm:mx-2 sm:h-28 md:h-48 md:flex-col lg:w-[440px] lg:h-[170px] lg:flex-row lg:shadow-none lg:rounded-none ">
+                                <div class="">
+                                    <img class="mt-4 h-11 w-16 rounded-full mx-3 sm:h-14 sm:w-14 md:h-10 md:w-10 md:m-auto lg:h-20 lg:w-24 lg:my-5 lg:mx-10 "
+                                        src="/assets/icon4-COPVf9Oq.png" alt="">
+                                </div>
+                                <div class="py-3  px-5 text-left lg:pl-16">
+                                    <h5 class=" lg:text-lg font-semibold  ">
+                                        All Necessary Data Collection
+                                    </h5>
+                                    <p class=" text-sm font-light lg:text-base lg:font-normal">
+                                        Sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Quis ipsum suspendisse.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="card2 hover:cursor-pointer flex shadow-md shadow-black rounded-sm my-3 mx-2  sm:h-28 sm:my-3 sm:mx-2  md:h-48 md:flex-col lg:-my-3 lg:w-[440px] lg:h-[170px] lg:flex-row lg:shadow-none lg:rounded-none">
+                                <div class="">
+                                    <img class="mt-4 h-11 w-16 rounded-full mx-3 sm:h-14 sm:w-14 md:h-10 md:w-10 md:m-auto lg:h-20 lg:w-24 lg:my-5 lg:mx-10  "
+                                        src="/assets/icon5-bQRtJO3r.png" alt="">
+                                </div>
+                                <div class="py-3 px-5 text-left lg:pl-16">
+                                    <h5 class=" lg:text-lg font-semibold  ">
+                                        Analysis Data
+                                    </h5>
+                                    <p class=" text-sm font-light lg:text-base lg:font-normal">
+                                        Sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Quis ipsum suspendisse.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="card3 hover:cursor-pointer flex shadow-md shadow-black rounded-sm my-3 mx-2  sm:h-28 sm:my-3 sm:mx-2  md:h-48 md:flex-col lg:-my-3 lg:w-[440px] lg:h-[170px] lg:flex-row lg:shadow-none lg:rounded-none">
+                                <div class="">
+                                    <img class="mt-4 h-11 w-16 rounded-full mx-3 sm:h-14 sm:w-14 md:h-10 md:w-10 md:m-auto lg:h-20 lg:w-24 lg:my-5 lg:mx-10  "
+                                        src="./images/icon4.pngnm " alt="">
+                                </div>
+                                <div class="py-3  px-5 text-left lg:pl-16">
+                                    <h5 class=" lg:text-lg font-semibold  ">
+                                        Report the best Solution
+                                    </h5>
+                                    <p class=" text-sm font-light lg:text-base lg:font-normal">
+                                        Sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Quis ipsum suspendisse.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="part2">
+                        <div class="cover2 lg:h-fit lg:w-fit lg:mr-auto">
+                            <div
+                                class="card4 hover:cursor-pointer flex shadow-md shadow-black rounded-sm my-3 mx-2 sm:my-3 sm:mx-2 sm:h-28 md:h-48 md:flex-col lg:w-[440px] lg:h-[170px] lg:flex-row lg:shadow-none lg:rounded-none ">
+                                <div class="">
+                                    <img class="mt-4 h-11 w-16 rounded-full mx-3 sm:h-14 sm:w-14 md:h-10 md:w-10 md:m-auto lg:h-20 lg:w-24 lg:my-5 lg:mx-10 "
+                                        src="data:image/png;base64,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" alt="">
+                                </div>
+                                <div class="py-3  px-5 text-left lg:pl-16">
+                                    <h5 class=" lg:text-lg font-semibold  ">
+                                        All Necessary Data Collection
+                                    </h5>
+                                    <p class=" text-sm font-light lg:text-base lg:font-normal">
+                                        Sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Quis ipsum suspendisse.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="card5 hover:cursor-pointer flex shadow-md shadow-black rounded-sm my-3 mx-2  sm:h-28 sm:my-3 sm:mx-2  md:h-48 md:flex-col lg:-my-3 lg:w-[440px] lg:h-[170px] lg:flex-row lg:shadow-none lg:rounded-none">
+                                <div class="">
+                                    <img class="mt-4 h-11 w-16 rounded-full mx-3 sm:h-14 sm:w-14 md:h-10 md:w-10 md:m-auto lg:h-20 lg:w-24 lg:my-5 lg:mx-10  "
+                                        src="data:image/png;base64,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" alt="">
+                                </div>
+                                <div class="py-3 px-5 text-left lg:pl-16">
+                                    <h5 class=" lg:text-lg font-semibold  ">
+                                        Analysis Data
+                                    </h5>
+                                    <p class=" text-sm font-light lg:text-base lg:font-normal">
+                                        Sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Quis ipsum suspendisse.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="card6 hover:cursor-pointer flex shadow-md shadow-black rounded-sm my-3 mx-2  sm:h-28 sm:my-3 sm:mx-2 md:h-48 md:flex-col lg:w-[440px] lg:h-[170px] lg:flex-row lg:shadow-none lg:rounded-none">
+                                <div class="">
+                                    <img class="mt-4 h-11 w-16 rounded-full mx-3 sm:h-14 sm:w-14 md:h-10 md:w-10 md:m-auto lg:h-20 lg:w-24 lg:my-5 lg:mx-10  "
+                                        src="data:image/png;base64,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" alt="">
+                                </div>
+                                <div class="py-3  px-5 text-left lg:pl-16">
+                                    <h5 class=" lg:text-lg font-semibold  ">
+                                        Report the best Solution
+                                    </h5>
+                                    <p class=" text-sm font-light lg:text-base lg:font-normal">
+                                        Sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Quis ipsum suspendisse.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="page4" class=" w-[98.7vw] h-[135vh] sm:h-[115vh] md:h-[125vh] lg:h-[70vh] relative bg-[#F8F8F8] ">
+                <div class=" lg:w-[85%] lg:m-auto ">
+                    <h1
+                        class="   font-semibold text-base w-3/5 mx-3 py-10 sm:text-lg md:w-60 md:m-auto md:pt-10 lg:font-bold lg:text-2xl lg:w-fit lg:pl-2 ">
+                        TABS WITH SOFT TRANSITIONING
+                        EFFECT.
+                    </h1>
+                    <p
+                        class="  text-sm font-light w-[95%] m-auto p-3 sm:pt-5 sm:text-base md:text-base md:font-normal md:w-96 md:-mt-10 md:ml-64 lg:ml-96 lg:w-[600px]">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora neque illo nulla molestias
+                        unde assumenda accusantium dicta voluptates explicabo. Nisi earum commodi aut iste aliquam
+                        dolorum iusto omnis voluptate esse in dolore laborum similique, natus eum veniam fugiat
+                        voluptatum? Expedita aliquam temporibus tempore culpa accusamus, maxime incidunt minus repellat
+                        accusantium.
+                    </p>
+                    <p
+                        class="  text-sm font-light w-[95%] m-auto p-3 sm:text-base md:text-base md:font-normal md:w-96 md:ml-64 lg:ml-96 lg:w-[600px]">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, sed. Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit. Dicta pariatur illum quisquam numquam quam minus officia nam!
+                    </p>
+                    <button
+                        class=" mt-3 text-white bg-black py-1 px-2 ml-5 border-2 border-black rounded hover:text-black hover:bg-white active:bg-black active:text-white sm:ml-5 md:ml-64 lg:ml-96">
+                        Download
+                    </button>
+                </div>
+                <div class="">
+                    <img class="absolute top-0 right-0 w-28 h-28 rounded-full sm:w-32 sm:h-32 sm:right-10 md:h-60 md:w-60 md:top-[5%] md:left-0 lg:w-96 lg:h-96 lg:left-24 "
+                        src="/assets/img3-DlxA73oZ.png" alt="">
+                </div>
+                <div
+                    class="tabs bg-neutral-900 w-fit h-fit text-white font-bold flex mx-auto my-3 hover:cursor-pointer md:flex-col md:absolute md:top-3 md:right-4 lg:mr-36 lg:mt-10 ">
+                    <div class=" h-20 w-20 bg-[#8F8F88]  flex items-center justify-center md:m-0">
+                        TAB&nbsp;1
+                    </div>
+                    <div class=" h-20 w-20 bg-black ml-1 flex items-center justify-center md:m-0">
+                        TAB&nbsp;2
+                    </div>
+                    <div class=" h-20 w-20 bg-black ml-1 flex items-center justify-center md:m-0">
+                        TAB&nbsp;3
+                    </div>
+                </div>
+            </div>
+            <div id="page5" class=" w-[98.7vw] h-[175vh] sm:h-[130vh] md:h-[75vh] lg:h-[115vh] ">
+                <div class="part1 w-fit md:w-full ">
+                    <h1
+                        class="  font-medium text-lg px-3 sm:px-5 md:font-semibold md:text-2xl md:text-center lg:text-4xl lg:font-bold lg:pt-10 ">
+                        PRICING OPTIONS
+                    </h1>
+                    <p
+                        class=" text-sm font-light px-5 py-1 md:text-base md:font-normal md:text-center lg:text-lg lg:font-medium lg:py-5 ">
+                        Lorem ipsum dolor sit amet, consectelur adipiscing eli.
+                    </p>
+                </div>
+                <div class="part2">
+                    <div
+                        class="cards-4 sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:place-items-center md:grid-cols-3 md:grid-rows-1  ">
+                        <div
+                            class="card1 text-center h-56 w-72 m-auto shahdow shadow-lg shahdow-black  sm:m-0 sm:h-[250px] md:w-64 md:h-56 md:-mt-6 lg:w-80 lg:-mt-28">
+                            <h6
+                                class=" bg-[#787876] font-semibold text-lg text-white border border-b-2 border-gray-200 lg:text-4xl ">
+                                Basic
+                            </h6>
+                            <div class=" bg-black text-white font-semibold text-2xl lg:text-6xl lg:py-2  ">
+                                $1500
+                            </div>
+                            <div class="items uppercase bg-[#F8F8F8] grid lg:h-80 ">
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    1 GB space
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    10 GB OF BANDWIDTH
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    3 WEBSITES
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    BASIC CUSTOMIZATION
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    WORDPRESS INTEGRATION
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    EMAIL SUPPORT
+                                </span>
+                            </div>
+                        </div>
+                        <div
+                            class="card2 text-center h-54 w-72 m-auto my-3 shahdow shadow-lg shahdow-black sm:m-0 md:w-64 md:mt-[1px] lg:w-80">
+                            <h6
+                                class=" bg-[#787876] font-semibold text-lg text-white border border-b-2 border-gray-200 lg:text-4xl">
+                                Professional
+                            </h6>
+                            <div class=" bg-black text-white font-semibold text-2xl lg:text-6xl lg:py-2 ">
+                                $2500
+                            </div>
+                            <div class=" bg-[#787876] font-medium text-base text-white  ">
+                                OUR MOST POPULAR
+                            </div>
+                            <div class="items uppercase bg-[#F8F8F8] grid lg:h-80 ">
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    5 GB space
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    50 GB OF BANDWIDTH
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    12 WEBSITES
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    ADVANCED CUSTOMIZATION
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    WORDPRESS INTEGRATION
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    EMAIL SUPPORT
+                                </span>
+                            </div>
+                        </div>
+                        <div
+                            class="card3 text-center h-56 w-72 m-auto my-3 shahdow shadow-lg shahdow-black sm:ml-40 md:m-0 md:w-64 md:-mt-6 lg:w-80 lg:-mt-28">
+                            <h6
+                                class=" bg-[#787876] font-semibold text-lg text-white border border-b-2 border-gray-200 lg:text-4xl">
+                                Enterprise
+                            </h6>
+                            <div class=" bg-black text-white font-semibold text-2xl lg:text-6xl lg:py-2 ">
+                                $4525
+                            </div>
+                            <div class="items uppercase bg-[#F8F8F8] grid lg:h-80">
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    UNLIMITED SPACE
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    UNUIMITED BANDWIDTH
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    100 WEBSITES
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    ADVANCED CUSTOMIZATION
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    WORDPRESS INTEGRATION
+                                </span>
+                                <span class=" border border-b-2 border-white lg:pt-3 ">
+                                    24/7 CUSTOMER SUPPORT
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="page6" class=" w-[98.7vw] h-fit bg-[#F8F8F8] ">
+                <h3
+                    class=" 0 mt-5 font-medium text-lg px-5 pt-2 md:font-semibold md:text-xl lg:font-bold lg:text-4xl lg:text-center ">
+                    WHAT CLIENTS SAY
+                </h3>
+                <p class="   text-sm px-5 md:text-base lg:font-normal lg:text-lg lg:text-center lg:py-3 ">
+                    Lorem ipsum dolor sit amet, corsectetur adipiscirki elil
+                </p>
+                <div class="card-4 md:grid md:grid-cols-2 md:grid-rows-2 lg:grid-flow-col lg:pb-14  ">
+                    <div class="card1 cursor-pointer bg-white h-20 w-72 m-auto mt-3 lg:ml-16 lg:rounded-sm">
+                        <p class=" text-sm font-light pt-5 text-center md:text-base">
+                            Dalaribus accusamus duoncitol
+                            repoliat similique odio aspornatur ex.
+                        </p>
+                        <i class="ri-arrow-down-line ml-20 sm:hidden"> </i>
+                        <i class="ri-arrow-left-down-line hidden sm:block md:hidden"></i>
+                        <i class="ri-arrow-right-fill hidden sm:hidden md:block md:float-right lg:hidden"></i>
+                        <i
+                            class="ri-arrow-down-s-fill hidden lg:block lg:text-6xl lg:-mt-[11px] lg:text-white lg:ml-7"></i>
+                    </div>
+                    <div class=" flex md:-ml-20 lg:m-0 lg:-mt-4 lg:items-center ">
+                        <img class="h-20 w-20 object-cover object-center rounded-full mx-16 mt-2 lg:h-28 lg:w-28"
+                            src="/assets/clint1-CzelUqxS.jpg" alt="">
+                        <div class="name  h-fit -ml-14 pt-4 lg:font-semibold lg:text-2xl ">
+                            Harry <br>
+                            <span class="opacity-50"> Manager</span>
+                        </div>
+                    </div>
+                    <div class="card2 cursor-pointer bg-white h-20 w-72 m-auto mt-3 lg:-ml-36 lg:mt-3 lg:rounded-sm">
+                        <p class=" text-sm font-light pt-5 text-center md:text-base">
+                            Dalaribus accusamus duoncitol
+                            repoliat similique odio aspornatur ex.
+                        </p>
+                        <i class="ri-arrow-down-line ml-20 sm:hidden"> </i>
+                        <i class="ri-arrow-left-down-line hidden sm:block md:hidden "></i>
+                        <i class="ri-arrow-right-fill hidden sm:hidden md:block lg:hidden md:float-right"></i>
+                        <i
+                            class="ri-arrow-down-s-fill hidden lg:block lg:text-6xl lg:-mt-[11px] lg:text-white lg:ml-7"></i>
+                    </div>
+                    <div class=" flex md:-ml-20 lg:-mt-2 lg:items-center">
+                        <img class="h-20 w-20 object-cover object-center rounded-full mx-16 mt-2 lg:h-28 lg:w-28 lg:-ml-[65px]"
+                            src="/assets/clint2-BQYmwXkj.jpg" alt="">
+                        <div class="name  h-fit -ml-14 pt-4 lg:font-semibold lg:text-2xl">
+                            Dissten <br>
+                            <span class="opacity-50"> Freelancer </span>
+                        </div>
+                    </div>
+                    <div class="card3 cursor-pointer bg-white h-20 w-72 m-auto mt-3 lg:-ml-96 lg:mt-3 lg:rounded-sm">
+                        <p class=" text-sm font-light pt-5 text-center md:text-base">
+                            Dalaribus accusamus duoncitol
+                            repoliat similique odio aspornatur ex.
+                        </p>
+                        <i class="ri-arrow-down-line ml-20 sm:hidden"> </i>
+                        <i class="ri-arrow-left-down-line hidden sm:block md:hidden "></i>
+                        <i class="ri-arrow-right-fill hidden sm:hidden md:block lg:hidden md:float-right"></i>
+                        <i
+                            class="ri-arrow-down-s-fill hidden lg:block lg:text-6xl lg:-mt-[11px] lg:text-white lg:ml-7"></i>
+                    </div>
+                    <div class=" pb-7 flex md:-ml-20 lg:-ml-[450px] lg:-mt-2 lg:items-center lg:p-0">
+                        <img class="h-20 w-20 object-cover object-center rounded-full mx-16 mt-2 lg:h-28 lg:w-28"
+                            src="/assets/clint3-BV9Te7wv.jpg" alt="">
+                        <div class="name  h-fit -ml-14 pt-4 lg:font-semibold lg:text-2xl">
+                            Benjamin <br>
+                            <span class="opacity-50"> Employ </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="page7" class=" w-[98.7vw] h-[100vh] sm:h-[80vh] md:h-[60vh] lg:h-[70vh] ">
+                <div class="cover mt-5 md:flex md:items-center lg:mt-10  ">
+                    <div class="part1 md:order-2 lg:w-1/2 lg:mt-20 lg:-ml-10">
+                        <h1
+                            class="font-medium  text-base pl-5 sm:text-lg sm:py-2 md:font-semibold md:text-xl lg:text-4xl lg:font-bold lg:pt-5 ">
+                            OUR TEAM DEVELOPERS ARE AHEAD OF
+                            THE CURVE.
+                        </h1>
+                        <p class="  font-light text-sm pl-5 sm:py-1 md:text-base md:font-medium md:pr-2 lg:text-lg  ">
+                            Lorem insum dolor sal amel, consectelur adipisicma elt, sed do ctustniox
+                            tembor incididunt ut labore el dolore magna alicua. Ut enim ad minim venil
+                            am, quis nostrud exercitation ullamco laboris nisi ut aliquip ex col
+                            commodo consequal. Durs aute trure ooxx m reptenendent in voluptate
+                            vea esse cillum dolore eu tunat nulla paratur.
+                        </p>
+                        <strong class=" cursor-pointer text-base font-bold ml-5 lg:text-lg">
+                            Read more
+                        </strong>
+                    </div>
+                    <div class="part2 sm:h-56 md:order-1 lg:w-1/2">
+                        <div class=" sm:w-80 sm:h-80 sm:m-auto sm:-mt-5 md:m-0 lg:w-[500px] lg:h-[500px] lg:mx-auto">
+                            <img class="rounded-[37%_34%_35%_38%/48%_46%_52%_52%] p-3 " src="/assets/img4-CC_UJaHD.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="page8" class=" w-[98.7vw] h-screen lg:h-[60vh] bg-[#F8F8F8]">
+                <div class="cover lg:flex ">
+                    <div class="part1 lg:grid lg:place-items-center lg:w-1/2">
+                        <h2
+                            class="  px-5 py-2 text-lg font-medium md:text-xl md:font-semibold lg:font-bold lg:text-4xl lg:pb-3">
+                            Company
+                        </h2>
+                        <p
+                            class=" text-sm font-light pl-5 pb-2 md:text-base md:font-normal  lg:w-80 lg:text-left lg:-mt-20 lg:ml-32">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam libero obcaecati ducimus,
+                            accusantium molestias aliquam earum.
+                        </p>
+                        <div class="text-base font-normal pl-5 pb-2  lg:-mt-20 lg:ml-10  ">
+                            <div class="">
+                                1234 south street.North area.
+                            </div>
+                            <div class="">
+                                <span class=""> Tel :</span> (0123) 000 232 111 454
+                            </div>
+                        </div>
+                    </div>
+                    <div class="part2  lg:w-1/2">
+                        <h2
+                            class=" text-center pt-2 text-lg font-medium md:font-semibold md:text-xl lg:font-bold lg:text-4xl lg:mt-11 lg:pb-3">
+                            CONTACT US
+                        </h2>
+                        <p class="  text-sm text-center font-light px-5 md:text-base md:font-normal ">
+                            Lorem ipsum color sit amet, consectetur ad discina ell
+                        </p>
+                        <form>
+                            <label for="name" class="  ml-3 sm:ml-14 lg:ml-0 ">
+                                <input type="text" name="name" id="name" placeholder=" Your Name"
+                                    class=" bg-transparent text-black font-light text-sm //  outline-none indent-10 border-b-black border-b-2 w-36 h-10 sm:w-60 sm:indent-0 md:w-80   ">
+                            </label>
+                            <label for="email" class=" ">
+                                <input type="email" name="EMAIL" id="email" placeholder=" E-mail address"
+                                    class=" bg-transparent text-black font-light text-sm  outline-none indent-6 border-b-black border-b-2 w-36 h-10  sm:w-60 sm:indent-0 md:w-80 ">
+                            </label>
+                            <label for="Subject" class="  sm:ml-28 md:ml-32 lg:m-0">
+                                <input type="text" name="Subject" id="Subject" placeholder=" Your Subject"
+                                    class=" bg-transparent text-black font-light text-sm ml-3 outline-none border-b-black border-b-2 w-72 h-10  sm:w-96 sm:indent-0 md:w-[475px] lg:w-[620px]  ">
+                            </label>
+                            <label for="message" class="  ">
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder=" Your Message"
+                                    class=" bg-transparent text-black font-light text-sm ml-3 outline-none border-b-black border-b-2 w-72 h-20 sm:ml-44 sm:mt-8 md:ml-52 lg:ml-2 lg:w-[650px] resize-none "></textarea>
+                            </label>
+                        </form>
+                        <button
+                            class="  text-white bg-black  border-2 border-black rounded-sm hover:text-black hover:bg-white active:bg-black active:text-white px-4 py-1 font-semibold float-right mr-4 mt-2 md:mr-10 lg:px-9  ">
+                            SEND
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class=" ">
+        <div class="cover lg:flex lg:justify-between lg:items-center">
+            <div class="part1 px-5 py-2  md:flex md:items-center">
+                <h1 class=" text-lg font-medium md:font-semibold md:text-xl lg:pl-10 lg:font-bold lg:text-4xl ">
+                    Social Media
+                </h1>
+                <p class=" text-sm font-light md:font-normal md:text-base md:pl-5">
+                    Lorem ipsum dolor sit amet, consoctetur adipisona eliti
+                </p>
+            </div>
+            <div class="part2 lg:mr-8">
+                <div class="images flex justify-center space-x-5 pb-3 md:space-x-14  ">
+                    <img class="h-6 w-6 " src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20id='instagram'%3e%3cg%20fill='none'%20stroke='%23303c42'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3crect%20width='21'%20height='21'%20x='1.5'%20y='1.5'%20rx='5.48'%20ry='5.48'%3e%3c/rect%3e%3ccircle%20cx='12'%20cy='12'%20r='5.5'%3e%3c/circle%3e%3ccircle%20cx='18'%20cy='5'%20r='.5'%3e%3c/circle%3e%3c/g%3e%3c/svg%3e" alt="">
+                    <img class="h-6 w-6 " src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20xml:space='preserve'%20viewBox='0%200%2016%2016'%20id='linkedin'%3e%3cpath%20d='M0%205h3.578v11H0zM13.324%205.129c-.038-.012-.074-.025-.114-.036a2.32%202.32%200%200%200-.145-.028A3.207%203.207%200%200%200%2012.423%205c-2.086%200-3.409%201.517-3.845%202.103V5H5v11h3.578v-6s2.704-3.766%203.845-1v7H16V8.577a3.568%203.568%200%200%200-2.676-3.448z'%3e%3c/path%3e%3ccircle%20cx='1.75'%20cy='1.75'%20r='1.75'%3e%3c/circle%3e%3c/svg%3e" alt="">
+                    <img class="h-6 w-6 " src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20xml:space='preserve'%20viewBox='0%200%2032%2032'%20id='youtube'%3e%3cpath%20d='M28%201c1.654%200%203%201.346%203%203v24c0%201.654-1.346%203-3%203H4c-1.654%200-3-1.346-3-3V4c0-1.654%201.346-3%203-3h24m0-1H4C1.8%200%200%201.8%200%204v24c0%202.2%201.8%204%204%204h24c2.2%200%204-1.8%204-4V4c0-2.2-1.8-4-4-4z'%3e%3c/path%3e%3cpath%20d='M21.693%2019.41c-.161%200-.277.045-.348.141-.07.09-.104.246-.104.461v.519h.894v-.519c0-.216-.036-.371-.107-.461-.067-.096-.181-.141-.335-.141zM18.207%2019.392a.481.481%200%200%200-.214.049.757.757%200%200%200-.209.157v3.204a.879.879%200%200%200%20.24.181.559.559%200%200%200%20.244.056c.124%200%20.214-.036.272-.11.058-.072.089-.188.089-.354v-2.656c0-.173-.036-.306-.107-.395a.39.39%200%200%200-.315-.132z'%3e%3c/path%3e%3cpath%20d='M23.826%2015.406c-.831-.83-7.83-.841-7.83-.84%200-.001-6.998.01-7.831.839-.833.831-.835%204.933-.835%204.956%200%20.031.002%204.126.835%204.957.833.829%207.831.847%207.831.847s6.999-.018%207.83-.846c.836-.834.843-4.957.843-4.957%200-.024-.009-4.125-.843-4.956zm-11.157%202.417H11.49v5.958h-1.14v-5.958H9.172V16.81h3.497v1.013zM16%2023.78h-1.009v-.565a2.155%202.155%200%200%201-.585.476%201.209%201.209%200%200%201-.587.163c-.235%200-.408-.075-.529-.229-.116-.154-.177-.381-.177-.689v-4.3h1.01v3.945c0%20.122.021.21.062.265.045.055.114.082.207.082a.567.567%200%200%200%20.283-.109%201.44%201.44%200%200%200%20.314-.275v-3.907H16v5.143zm3.67-1.062c0%20.364-.079.642-.238.837-.157.195-.388.29-.688.29-.199%200-.374-.036-.528-.111a1.287%201.287%200%200%201-.432-.348v.395h-1.022V16.81h1.022v2.245c.137-.156.281-.277.433-.357a.983.983%200%200%201%20.466-.122c.321%200%20.565.11.733.327.17.22.254.541.254.962v2.853zm3.506-1.384h-1.934v.967c0%20.271.033.459.099.564.068.105.181.156.343.156.167%200%20.284-.044.351-.133.066-.089.101-.283.101-.587v-.235h1.04v.264c0%20.528-.126.925-.381%201.193-.252.266-.631.398-1.134.398-.452%200-.81-.14-1.07-.424-.26-.282-.392-.67-.392-1.167v-2.309c0-.445.144-.81.43-1.09.286-.281.653-.421%201.107-.421.463%200%20.819.13%201.068.39.249.26.372.633.372%201.121v1.313zM21.689%2013.514H20.55v-.626c-.207.23-.426.407-.655.527a1.4%201.4%200%200%201-.66.181c-.265%200-.462-.085-.595-.253-.133-.169-.2-.421-.2-.76V7.848h1.137v4.344c0%20.134.026.231.074.291.046.06.125.09.231.09.083%200%20.189-.04.317-.119.127-.079.245-.181.351-.305v-4.3h1.139v5.665zM17.067%208.117c-.302-.275-.689-.412-1.159-.412-.516%200-.929.13-1.235.39-.308.26-.461.609-.46%201.049v2.936c0%20.481.15.864.447%201.149.3.284.699.426%201.196.426.518%200%20.923-.138%201.22-.414.294-.276.441-.656.441-1.14V9.176c0-.431-.151-.785-.45-1.059zm-.71%204.071c0%20.151-.045.27-.136.358a.514.514%200%200%201-.367.129c-.151%200-.267-.042-.348-.127a.505.505%200%200%201-.122-.36V9.102c0-.124.045-.224.13-.301a.497.497%200%200%201%20.34-.114c.149%200%20.271.038.364.114a.37.37%200%200%201%20.14.301v3.086zM11.111%205.835H9.82l1.526%204.636v3.043h1.282v-3.187l1.491-4.492h-1.303l-.792%203.069h-.08z'%3e%3c/path%3e%3c/svg%3e" alt="">
+                    <img class="h-6 w-6 " src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20enable-background='new%200%200%20124%20124'%20viewBox='0%200%20124%20124'%20id='twitter'%3e%3cpath%20fill='%23333033'%20d='M106.3,36.6c-2.8,1.3-6,2.1-9,2.6c1.5-0.2,3.6-2.9,4.5-3.9c1.3-1.6,2.4-3.5,3-5.5%20c0.1-0.2,0.1-0.4,0-0.5c-0.2-0.1-0.3,0-0.5,0c-3.4,1.8-6.9,3.2-10.7,4.1c-0.3,0.1-0.5,0-0.7-0.2c-0.3-0.4-0.6-0.7-0.9-1%20c-1.6-1.3-3.3-2.4-5.2-3.2c-2.5-1-5.3-1.5-8-1.3c-2.6,0.2-5.2,0.9-7.5,2.1c-2.3,1.2-4.4,2.9-6.1,5c-1.7,2.1-3,4.6-3.6,7.3%20c-0.6,2.6-0.6,5.1-0.2,7.7c0.1,0.4,0,0.5-0.4,0.4C46.2,48.1,34,42.9,24.1,31.6c-0.4-0.5-0.7-0.5-1,0c-4.3,6.5-2.2,16.9,3.2,22.1%20c0.7,0.7,1.5,1.4,2.3,2c-0.3,0.1-3.9-0.3-7.1-2c-0.4-0.3-0.6-0.1-0.7,0.4c0,0.7,0,1.3,0.1,2.1c0.8,6.6,5.4,12.7,11.6,15%20c0.7,0.3,1.6,0.6,2.4,0.7c-1.4,0.3-2.9,0.5-7,0.2c-0.5-0.1-0.7,0.2-0.5,0.6C30.4,81.1,37,83.6,42,85c0.7,0.1,1.3,0.1,2,0.3%20c0,0.1-0.1,0.1-0.1,0.1c-1.6,2.5-7.3,4.4-10,5.3c-4.8,1.7-10.1,2.4-15.2,1.9c-0.8-0.1-1-0.1-1.2,0c-0.2,0.1,0,0.3,0.2,0.5%20c1,0.7,2.1,1.3,3.2,1.9c3.2,1.7,6.6,3.1,10.1,4.1c18.2,5,38.8,1.3,52.5-12.3C94.2,76.2,98,61.5,98,46.7c0-0.6,0.7-0.9,1.1-1.2%20c2.8-2.1,5-4.6,7.1-7.4c0.5-0.6,0.4-1.2,0.4-1.4c0,0,0-0.1,0-0.1C106.6,36.4,106.7,36.4,106.3,36.6z'%3e%3c/path%3e%3cpath%20fill='%23333033'%20fill-rule='evenodd'%20d='M43.9%20101C51.4%20101%2044.2%20101%2043.9%20101%2044.9%20101%2043.8%20101%2043.9%20101zM43.9%20101C43.8%20101%2042.4%20101%2043.9%20101%2043.9%20101%2043.6%20101%2043.9%20101zM46.9%20101.1C46.9%20100.9%2048.5%20101.1%2046.9%20101.1%2046.9%20101%2047.1%20101.1%2046.9%20101.1zM78.5%2027.9c-.1.1-.2.1-.4%200C78.2%2027.9%2078.4%2027.9%2078.5%2027.9z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/svg%3e" alt="">
+                    <img class="h-6 w-6 " src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20id='facebook'%3e%3cpath%20d='M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z'%3e%3c/path%3e%3c/svg%3e" alt="">
+                    <img class="h-6 w-6 " src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20xml:space='preserve'%20viewBox='0%200%2032%2032'%20id='pinterst'%3e%3cpath%20fill='%23FFF'%20d='M24.688%2030H0L7%202h25z'%3e%3c/path%3e%3cpath%20d='M24.502%2012.466c0%204.658-2.59%208.139-6.407%208.139-1.283%200-2.488-.693-2.901-1.481%200%200-.69%202.736-.835%203.264-.514%201.866-2.027%203.733-2.144%203.886-.082.106-.263.073-.282-.068-.033-.238-.418-2.592.036-4.513l1.527-6.471s-.379-.758-.379-1.879c0-1.76%201.02-3.074%202.29-3.074%201.08%200%201.601.81%201.601%201.782%200%201.086-.691%202.71-1.048%204.214-.298%201.26.632%202.288%201.874%202.288%202.25%200%203.765-2.89%203.765-6.314%200-2.602-1.752-4.551-4.941-4.551-3.601%200-5.846%202.686-5.846%205.687%200%201.035.306%201.765.784%202.329.219.26.25.364.17.662-.058.219-.187.744-.243.953-.079.301-.323.408-.594.297-1.659-.677-2.432-2.495-2.432-4.537%200-3.373%202.845-7.418%208.487-7.418%204.535.002%207.518%203.282%207.518%206.805z'%3e%3c/path%3e%3c/svg%3e" alt="">
+                </div>
+            </div>
+        </div>
+        <div
+            class="bottom text-sm  font-semibold bg-[#363638] p-3 text-center text-white md:text-base lg:p-10 lg:font-bold lg:text-xl">
+            Copyright 2025 | &copy; Al Rights Reserved
+        </div>
+        
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="script.js"></script>
+</body>
+
+</html>
